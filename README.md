@@ -5,7 +5,7 @@ Written with python and SQL I used the PyQt5 framework for the graphical interfa
 <br/>
 ## Add Detail
 <br/>
-
+![test image size](/gif_sample/show_add.gif){:height="50%" width="50%"}
 <br/>
 ## Search Detail
 <br/>
