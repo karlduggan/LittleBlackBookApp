@@ -5,7 +5,7 @@ Written with python and SQL I used the PyQt5 framework for the graphical interfa
 <br/>
 ## Add Detail
 <br/>
-<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_add.gif" width="400" height="400">
+<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_add.gif" width="452.25" height="424.5">
 <br/>
 ## Search Detail
 <br/>
