@@ -5,7 +5,7 @@ Written with python and SQL I used the PyQt5 framework for the graphical interfa
 <br/>
 ## Add Detail
 <br/>
-![test image size](/gif_sample/show_add.gif){:height="50%" width="50%"}
+<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_add.gif" width="100" height="100">
 <br/>
 ## Search Detail
 <br/>
@@ -15,7 +15,7 @@ Written with python and SQL I used the PyQt5 framework for the graphical interfa
 To update detail enter data into relevant box as you would to add new detail, be sure to check the box and enter correct id before pressing update.<br/>
 You will be notified if the update was successful or not with a pop-up message.
 <br/>
-<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_update.gif">
+<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_update.gif" width="100" height="100">
 
 
 ## Delete Detail
