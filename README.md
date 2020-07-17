@@ -15,7 +15,7 @@ Written with python and SQL I used the PyQt5 framework for the graphical interfa
 To update detail enter data into relevant box as you would to add new detail, be sure to check the box and enter correct id before pressing update.<br/>
 You will be notified if the update was successful or not with a pop-up message.
 <br/>
-![Alt Text](gif_sample/show_update.gif)
+<img src="https://github.com/karlduggan/LittleBlackBookApp/blob/master/gif_sample/show_update.gif">
 
 
 ## Delete Detail
