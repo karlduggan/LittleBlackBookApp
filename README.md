@@ -11,8 +11,7 @@ None: add giphy
 To update detail enter data into relevant box as you would to add new detail, be sure to check the box and enter correct id before pressing update.<br/>
 You will be notified if the update was successful or not with a pop-up message.
 <br/><br/>
-None: add giphy
-![Alt Text](gif_sample/show_update.gif)
+![Alt Text](gif_sample/show_update.gif width="40" height="40")
 ## Delete Detail
 To delete detail, go to the delete tab and enter the id number you wish to delete and confirm you wish to continue before pressing the delete button.<br/>
 A pop-up will appear to confirm if the deletion was successful or not.
