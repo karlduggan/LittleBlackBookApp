@@ -316,24 +316,26 @@ class Ui_MainWindow(object):
         try:
             file.create_customerTable()
         except:
-            cust_id = int(self.lineEdit_id.text())
-            
-            f_name = self.checkIfEmpty(self.lineEdit_firstName.text())
-            l_name = self.checkIfEmpty(self.lineEdit_lastName.text())
-            phone = self.checkIfEmpty(self.lineEdit_phone.text())
-            email = self.checkIfEmpty(self.lineEdit_email.text())
-            add1 = self.checkIfEmpty(self.lineEdit_address1.text())
-            add2 = self.checkIfEmpty(self.lineEdit_address2.text())
-            add3 = self.checkIfEmpty(self.lineEdit_address3.text())
-            tcity = self.checkIfEmpty(self.lineEdit_towncity.text())
-            postcode = self.checkIfEmpty(self.lineEdit_postcode.text())
-            company = self.checkIfEmpty(self.lineEdit_company.text())
-            detail = self.checkIfEmpty(self.lineEdit_detail.text())
-            file.insert_customer(cust_id,f_name,l_name,email,phone,add1,add2,add3,tcity,postcode,company, detail)
-            self._clear_afterClick()
-            self.show_popup("Details Added Successfully")
+            try:
+                cust_id = int(self.lineEdit_id.text())
 
-        
+                f_name = self.checkIfEmpty(self.lineEdit_firstName.text())
+                l_name = self.checkIfEmpty(self.lineEdit_lastName.text())
+                phone = self.checkIfEmpty(self.lineEdit_phone.text())
+                email = self.checkIfEmpty(self.lineEdit_email.text())
+                add1 = self.checkIfEmpty(self.lineEdit_address1.text())
+                add2 = self.checkIfEmpty(self.lineEdit_address2.text())
+                add3 = self.checkIfEmpty(self.lineEdit_address3.text())
+                tcity = self.checkIfEmpty(self.lineEdit_towncity.text())
+                postcode = self.checkIfEmpty(self.lineEdit_postcode.text())
+                company = self.checkIfEmpty(self.lineEdit_company.text())
+                detail = self.checkIfEmpty(self.lineEdit_detail.text())
+                file.insert_customer(cust_id,f_name,l_name,email,phone,add1,add2,add3,tcity,postcode,company, detail)
+                self._clear_afterClick()
+                self.show_popup("Details Added Successfully")
+            except:
+                self.show_popup("Id Already Used")
+                
     def delete_onClick(self):
         if self.checkBox_confirm.isChecked() != True:
             return self.show_popup('Please tick and confirm you want to delete')
